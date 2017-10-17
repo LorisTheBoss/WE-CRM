@@ -7,6 +7,7 @@
  */
 
 $iniFile = "config.env";
+//asdf
 $config = [];
 if(file_exists($iniFile)) {
     $databaseConfig = parse_ini_file($iniFile, true)["database"];
